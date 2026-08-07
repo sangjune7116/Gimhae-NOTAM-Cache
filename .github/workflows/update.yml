@@ -1,0 +1,40 @@
+name: Update RKPK NOTAM Cache
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # 20분마다 (UTC 기준, 즉 KST로도 20분 간격)
+  workflow_dispatch: {}       # Actions 탭에서 수동 실행 버튼
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_notam.py'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch RKPK NOTAM from aim.koca.go.kr (server-side, no CORS)
+        run: python scripts/fetch_notam.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "notam-cache-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- notam.json; then
+            echo "No change in notam.json — skip commit."
+          else
+            git add notam.json
+            git commit -m "auto: update notam.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git push
+          fi
