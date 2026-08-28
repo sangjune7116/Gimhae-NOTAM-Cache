@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-08-28T11:12:51.445273+09:00",
- "fetchedAtUTC": "2026-08-28T02:12:51.445289+00:00",
+ "fetchedAt": "2026-08-28T23:24:05.118328+09:00",
+ "fetchedAtUTC": "2026-08-28T14:24:05.118344+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
  "count": 100,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Precision approach radar (specify runway) / Unserviceable",
+   "SERIES": "A",
+   "ISSUE_TIME": "2608280614",
+   "QCODE": "QCPAS",
+   "EFFECTIVEEND": "2608311230",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1245/26",
+   "ECODE": "PAR RWY 36L, RWY 36R U/S DUE TO MAINT",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n280614 RKRRYNYX\r\n(A1245/26 NOTAMN  \r\nQ)RKRR/QCPAS/I/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2608310930 C)2608311230\r\nE)PAR RWY 36L, RWY 36R U/S DUE TO MAINT)\r\n",
+   "SEQ": "16400159",
+   "EFFECTIVESTART": "2608310930"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "ILS Category II (specify runway) / Downgraded to  . . .(specify)",
@@ -1459,21 +1474,6 @@
    "FULL_TEXT": "GG RKZZNAXX\r\n030131 RKRRYNYX\r\n(A0940/26 NOTAMN  \r\nQ)RKRR/QOBCE/IV/M/AE/000/999/3511N12856E005\r\nA)RKPK B)2607030130 C)2607161200\r\nE)TEMP OBST CRANES ERECTED AS FLW\r\n- POSITION : 350932N1285521E\r\n- HEIGHT : 292FT AGL (89M))\r\n",
    "SEQ": "16156198",
    "EFFECTIVESTART": "2607030130"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "Runway (specify runway) / Limited to  . . .(specify)",
-   "SERIES": "A",
-   "ISSUE_TIME": "2607020954",
-   "QCODE": "QMRLT",
-   "EFFECTIVEEND": "2607022000",
-   "FIR": "RKRR",
-   "NOTAM_NO": "A0935/26",
-   "ECODE": "RWY 18R/36L BTN TWY C7 AND TWY S CLSD DUE TO WIP\r\n     \r\nRMK: RWY 9000FT AVBL",
-   "AIS_TYPE": "A",
-   "FULL_TEXT": "GG RKZZNAXX\r\n020954 RKRRYNYX\r\n(A0935/26 NOTAMN  \r\nQ)RKRR/QMRLT/IV/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2607021400 C)2607022000\r\nE)RWY 18R/36L BTN TWY C7 AND TWY S CLSD DUE TO WIP\r\n     \r\nRMK: RWY 9000FT AVBL)\r\n",
-   "SEQ": "16152466",
-   "EFFECTIVESTART": "2607021400"
   }
  ]
 }
