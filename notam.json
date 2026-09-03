@@ -1,6 +1,6 @@
 {
- "fetchedAt": "2026-09-04T04:26:39.063739+09:00",
- "fetchedAtUTC": "2026-09-03T19:26:39.063757+00:00",
+ "fetchedAt": "2026-09-04T08:45:50.703544+09:00",
+ "fetchedAtUTC": "2026-09-03T23:45:50.703562+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
