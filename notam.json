@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-09-03T21:34:46.294184+09:00",
- "fetchedAtUTC": "2026-09-03T12:34:46.294201+00:00",
+ "fetchedAt": "2026-09-04T01:39:33.680549+09:00",
+ "fetchedAtUTC": "2026-09-03T16:39:33.680568+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 96,
+ "count": 93,
  "DATA": [
   {
    "LOCATION": "RKPK",
@@ -1372,50 +1372,6 @@
    "SEQ": "16166536",
    "FIR": "RKRR",
    "EFFECTIVESTART": "2607060129"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "Precision approach radar (specify runway) / Unserviceable",
-   "SERIES": "A",
-   "ISSUE_TIME": "2607052243",
-   "QCODE": "QCPAS",
-   "EFFECTIVEEND": "2607080700",
-   "FIR": "RKRR",
-   "NOTAM_NO": "A0958/26",
-   "ECODE": "PAR RWY 36L, RWY 36R U/S DUE TO MAINT",
-   "AIS_TYPE": "A",
-   "FULL_TEXT": "GG RKZZNAXX\r\n052243 RKRRYNYX\r\n(A0958/26 NOTAMN  \r\nQ)RKRR/QCPAS/I/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2607080400 C)2607080700\r\nE)PAR RWY 36L, RWY 36R U/S DUE TO MAINT)\r\n",
-   "SEQ": "16166243",
-   "EFFECTIVESTART": "2607080400"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "GNSS airfield-specific operations (specify operation) / Plain language",
-   "SERIES": "G",
-   "ISSUE_TIME": "2607050128",
-   "QCODE": "QGAXX",
-   "EFFECTIVEEND": "2607071045",
-   "FIR": "RKRR",
-   "NOTAM_NO": "G3369/26",
-   "ECODE": "GPS RAIM OUTAGES PREDICTED FOR NPA",
-   "AIS_TYPE": "G",
-   "FULL_TEXT": "GG RKZZNAXX\r\n050128 RKRRYNYX\r\n(G3369/26 NOTAMN  \r\nQ)RKRR/QGAXX/I/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2607050921 C)2607071045\r\nD)05 0921-0928 0943-1002 1011-1053 1329-1334, 06 0917-0924 0939-0958 \r\n1007-1049 1325-1330, 07 0912-0920 0935-0954 1003-1045\r\nE)GPS RAIM OUTAGES PREDICTED FOR NPA)\r\n",
-   "SEQ": "16163146",
-   "EFFECTIVESTART": "2607050921"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "GNSS airfield-specific operations (specify operation) / Plain language",
-   "SERIES": "G",
-   "NOTAM_NO": "G3352/26",
-   "ISSUE_TIME": "2607050120",
-   "ECODE": "GPS RAIM OUTAGES NEW NOTAM TO FLW",
-   "AIS_TYPE": "G",
-   "FULL_TEXT": "GG RKZZNAXX\r\n050120 RKRRYNYX\r\n(G3352/26 NOTAMC G3339/26 \r\nQ)RKRR/QGAXX/I/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2607050119 \r\nE)GPS RAIM OUTAGES NEW NOTAM TO FLW)\r\n",
-   "QCODE": "QGAXX",
-   "SEQ": "16163121",
-   "FIR": "RKRR",
-   "EFFECTIVESTART": "2607050119"
   }
  ]
 }
