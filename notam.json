@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-09-04T08:45:50.703544+09:00",
- "fetchedAtUTC": "2026-09-03T23:45:50.703562+00:00",
+ "fetchedAt": "2026-09-04T11:51:34.167682+09:00",
+ "fetchedAtUTC": "2026-09-04T02:51:34.167698+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 93,
+ "count": 94,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Precision approach radar (specify runway) / Unserviceable",
+   "SERIES": "A",
+   "ISSUE_TIME": "2609040204",
+   "QCODE": "QCPAS",
+   "EFFECTIVEEND": "2609090900",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1284/26",
+   "ECODE": "PAR RWY 36L, 36R U/S DUE TO MAINT",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n040204 RKRRYNYX\r\n(A1284/26 NOTAMN  \r\nQ)RKRR/QCPAS/I/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2609090600 C)2609090900\r\nE)PAR RWY 36L, 36R U/S DUE TO MAINT)\r\n",
+   "SEQ": "16431914",
+   "EFFECTIVESTART": "2609090600"
+  },
   {
    "LOCATION": "RKPK",
    "SERIES": "A",
