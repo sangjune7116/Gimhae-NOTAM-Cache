@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-09-05T10:04:22.936555+09:00",
- "fetchedAtUTC": "2026-09-05T01:04:22.936574+00:00",
+ "fetchedAt": "2026-09-05T14:49:34.197707+09:00",
+ "fetchedAtUTC": "2026-09-05T05:49:34.197724+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 90,
+ "count": 91,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Missile, gun or rocket firing / Will take place . . . (specify)",
+   "SERIES": "Z",
+   "ISSUE_TIME": "2609050518",
+   "QCODE": "QWMLW",
+   "EFFECTIVEEND": "2609081145",
+   "FIR": "RKRR",
+   "NOTAM_NO": "Z0658/26",
+   "ECODE": "FIREWORKS DISPLAY WILL TAKE PLACE AS FLW:\r\nA CIRCLE RADIUS 0.5NM RAD OF 350645N1285556E\r\nRMK : ACTUAL FIREWORKS TIME IS 4MINUTES",
+   "AIS_TYPE": "Z",
+   "FULL_TEXT": "GG RKZZNAXX\r\n050518 RKRRYNYX\r\n(Z0658/26 NOTAMN  \r\nQ)RKRR/QWMLW/IV/BO/AW/000/004/3507N12856E001\r\nA)RKPK B)2609081140 C)2609081145\r\nE)FIREWORKS DISPLAY WILL TAKE PLACE AS FLW:\r\nA CIRCLE RADIUS 0.5NM RAD OF 350645N1285556E\r\nRMK : ACTUAL FIREWORKS TIME IS 4MINUTES\r\nF)SFC G)400FT AGL)\r\n",
+   "SEQ": "16437479",
+   "EFFECTIVESTART": "2609081140"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Aerodrome operating minima (specify procedure and amended minimum) / Cancelled",
