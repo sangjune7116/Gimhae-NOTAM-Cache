@@ -1,11 +1,40 @@
 {
- "fetchedAt": "2026-09-09T10:16:30.653518+09:00",
- "fetchedAtUTC": "2026-09-09T01:16:30.653532+00:00",
+ "fetchedAt": "2026-09-09T20:30:47.335195+09:00",
+ "fetchedAtUTC": "2026-09-09T11:30:47.335213+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 78,
+ "count": 80,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Runway (specify runway) / Resumed normal operation",
+   "SERIES": "A",
+   "NOTAM_NO": "A1308/26",
+   "ISSUE_TIME": "2609091016",
+   "ECODE": "RWY 18L/36R RESUMED NML OPS",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n091016 RKRRYNYX\r\n(A1308/26 NOTAMC A1211/26 \r\nQ)RKRR/QMRAK/IV/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2609091013 \r\nE)RWY 18L/36R RESUMED NML OPS)\r\n",
+   "QCODE": "QMRAK",
+   "SEQ": "16453892",
+   "FIR": "RKRR",
+   "EFFECTIVESTART": "2609091013"
+  },
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway centre line lights (specify taxiway) / Unserviceable",
+   "SERIES": "A",
+   "ISSUE_TIME": "2609090853",
+   "QCODE": "QLXAS",
+   "EFFECTIVEEND": "2612132100",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1307/26",
+   "ECODE": "AMEND AIRAC AIP SUP 63/26 AS FLW\r\n\r\nDOMESTIC APRON TWY CL LGT U/S UP TO 500M DUE TO WIP",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n090853 RKRRYNYX\r\n(A1307/26 NOTAMN  \r\nQ)RKRR/QLXAS/IV/M/A/000/999/3511N12856E005\r\nA)RKPK B)2609141400 C)2612132100\r\nE)AMEND AIRAC AIP SUP 63/26 AS FLW\r\n\r\nDOMESTIC APRON TWY CL LGT U/S UP TO 500M DUE TO WIP)\r\n",
+   "SEQ": "16453389",
+   "EFFECTIVESTART": "2609141400"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Missile, gun or rocket firing / Will take place . . . (specify)",
