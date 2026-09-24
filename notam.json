@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-09-24T20:05:14.766609+09:00",
- "fetchedAtUTC": "2026-09-24T11:05:14.766625+00:00",
+ "fetchedAt": "2026-09-25T00:50:08.161724+09:00",
+ "fetchedAtUTC": "2026-09-24T15:50:08.161741+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 49,
+ "count": 47,
  "DATA": [
   {
    "LOCATION": "RKPK",
@@ -702,35 +702,6 @@
    "SEQ": "16257918",
    "FIR": "RKRR",
    "EFFECTIVESTART": "2607270205"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "GNSS airfield-specific operations (specify operation) / Plain language",
-   "SERIES": "G",
-   "ISSUE_TIME": "2607260107",
-   "QCODE": "QGAXX",
-   "EFFECTIVEEND": "2607280920",
-   "FIR": "RKRR",
-   "NOTAM_NO": "G3999/26",
-   "ECODE": "GPS RAIM OUTAGES PREDICTED FOR NPA",
-   "AIS_TYPE": "G",
-   "FULL_TEXT": "GG RKZZNAXX\r\n260107 RKRRYNYX\r\n(G3999/26 NOTAMN  \r\nQ)RKRR/QGAXX/I/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2607260755 C)2607280920\r\nD)26 0755-0806 0817-0824 0845-0928 1205-1210, 27 0751-0802 0813-0820 \r\n0841-0924 1200-1206, 28 0747-0758 0809-0815 0837-0920\r\nE)GPS RAIM OUTAGES PREDICTED FOR NPA)\r\n",
-   "SEQ": "16255447",
-   "EFFECTIVESTART": "2607260755"
-  },
-  {
-   "LOCATION": "RKPK",
-   "QCODE_MEAN": "GNSS airfield-specific operations (specify operation) / Plain language",
-   "SERIES": "G",
-   "NOTAM_NO": "G3984/26",
-   "ISSUE_TIME": "2607260058",
-   "ECODE": "GPS RAIM OUTAGES NEW NOTAM TO FLW",
-   "AIS_TYPE": "G",
-   "FULL_TEXT": "GG RKZZNAXX\r\n260058 RKRRYNYX\r\n(G3984/26 NOTAMC G3969/26 \r\nQ)RKRR/QGAXX/I/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2607260057 \r\nE)GPS RAIM OUTAGES NEW NOTAM TO FLW)\r\n",
-   "QCODE": "QGAXX",
-   "SEQ": "16255415",
-   "FIR": "RKRR",
-   "EFFECTIVESTART": "2607260057"
   }
  ]
 }
