@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-10-01T09:26:48.517182+09:00",
- "fetchedAtUTC": "2026-10-01T00:26:48.517200+00:00",
+ "fetchedAt": "2026-10-01T15:29:40.445689+09:00",
+ "fetchedAtUTC": "2026-10-01T06:29:40.445707+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 39,
+ "count": 40,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Aircraft stands (specify) / Closed",
+   "SERIES": "A",
+   "ISSUE_TIME": "2610010439",
+   "QCODE": "QMPLC",
+   "EFFECTIVEEND": "2611011500",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1411/26",
+   "ECODE": "ACFT STAND NR 39 AND NR 59 CLSD DUE TO WIP",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n010439 RKRRYNYX\r\n(A1411/26 NOTAMR A1212/26 \r\nQ)RKRR/QMPLC/IV/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2610010441 C)2611011500\r\nE)ACFT STAND NR 39 AND NR 59 CLSD DUE TO WIP)\r\n",
+   "SEQ": "16552454",
+   "EFFECTIVESTART": "2610010441"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Runway (specify runway) / Closed",
