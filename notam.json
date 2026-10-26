@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-10-26T14:53:15.348823+09:00",
- "fetchedAtUTC": "2026-10-26T05:53:15.348838+00:00",
+ "fetchedAt": "2026-10-26T21:13:48.484793+09:00",
+ "fetchedAtUTC": "2026-10-26T12:13:48.484808+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 36,
+ "count": 37,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway centre line lights (specify taxiway) / Unserviceable",
+   "SERIES": "A",
+   "ISSUE_TIME": "2610260714",
+   "QCODE": "QLXAS",
+   "EFFECTIVEEND": "2612132100",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1566/26",
+   "ECODE": "SOME PART OF TWY R CL LGT U/S DUE TO WIP",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n260714 RKRRYNYX\r\n(A1566/26 NOTAMN  \r\nQ)RKRR/QLXAS/IV/M/A/000/999/3511N12856E005\r\nA)RKPK B)2610281400 C)2612132100\r\nE)SOME PART OF TWY R CL LGT U/S DUE TO WIP)\r\n",
+   "SEQ": "16668630",
+   "EFFECTIVESTART": "2610281400"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Precision approach radar (specify runway) / Unserviceable",
