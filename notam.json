@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-10-27T16:58:12.766334+09:00",
- "fetchedAtUTC": "2026-10-27T07:58:12.766358+00:00",
+ "fetchedAt": "2026-10-27T23:15:52.846222+09:00",
+ "fetchedAtUTC": "2026-10-27T14:15:52.846239+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 39,
+ "count": 40,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway(s) (specify) / Closed",
+   "SERIES": "A",
+   "ISSUE_TIME": "2610270905",
+   "QCODE": "QMXLC",
+   "EFFECTIVEEND": "2610300800",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1579/26",
+   "ECODE": "TWY D1 CLSD DUE TO MAINT",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n270905 RKRRYNYX\r\n(A1579/26 NOTAMN  \r\nQ)RKRR/QMXLC/IV/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2610272300 C)2610300800\r\nD)2300-0800\r\nE)TWY D1 CLSD DUE TO MAINT)\r\n",
+   "SEQ": "16675010",
+   "EFFECTIVESTART": "2610272300"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Aircraft stands (specify) / Closed",
