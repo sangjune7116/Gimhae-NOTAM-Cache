@@ -1,11 +1,25 @@
 {
- "fetchedAt": "2026-11-06T02:08:11.371283+09:00",
- "fetchedAtUTC": "2026-11-05T17:08:11.371299+00:00",
+ "fetchedAt": "2026-11-06T07:41:15.655585+09:00",
+ "fetchedAtUTC": "2026-11-05T22:41:15.655601+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 36,
+ "count": 37,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway(s) (specify) / Resumed normal operation",
+   "SERIES": "A",
+   "NOTAM_NO": "A1651/26",
+   "ISSUE_TIME": "2611052117",
+   "ECODE": "TWY E3 RESUMED NML OPS",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n052117 RKRRYNYX\r\n(A1651/26 NOTAMC A1647/26 \r\nQ)RKRR/QMXAK/IV/BO/A/000/999/3511N12856E002\r\nA)RKPK B)2611052116 \r\nE)TWY E3 RESUMED NML OPS)\r\n",
+   "QCODE": "QMXAK",
+   "SEQ": "16727429",
+   "FIR": "RKRR",
+   "EFFECTIVESTART": "2611052116"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Taxiway(s) (specify) / Closed",
