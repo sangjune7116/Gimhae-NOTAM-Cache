@@ -1,11 +1,26 @@
 {
- "fetchedAt": "2026-11-11T10:42:51.354754+09:00",
- "fetchedAtUTC": "2026-11-11T01:42:51.354773+00:00",
+ "fetchedAt": "2026-11-11T17:49:37.619464+09:00",
+ "fetchedAtUTC": "2026-11-11T08:49:37.619482+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 33,
+ "count": 34,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Runway (specify runway) / Closed",
+   "SERIES": "A",
+   "ISSUE_TIME": "2611110814",
+   "QCODE": "QMRLC",
+   "EFFECTIVEEND": "2611120515",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1672/26",
+   "ECODE": "RWY 18L/36R CLSD DUE TO DRONE FLIGHT",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n110814 RKRRYNYX\r\n(A1672/26 NOTAMN  \r\nQ)RKRR/QMRLC/IV/NBO/A/000/999/3511N12856E005\r\nA)RKPK B)2611120400 C)2611120515\r\nE)RWY 18L/36R CLSD DUE TO DRONE FLIGHT)\r\n",
+   "SEQ": "16752092",
+   "EFFECTIVESTART": "2611120400"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Precision approach radar (specify runway) / Unserviceable",
