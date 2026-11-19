@@ -1,11 +1,40 @@
 {
- "fetchedAt": "2026-11-19T07:52:01.948149+09:00",
- "fetchedAtUTC": "2026-11-18T22:52:01.948164+00:00",
+ "fetchedAt": "2026-11-19T12:57:30.035735+09:00",
+ "fetchedAtUTC": "2026-11-19T03:57:30.035750+00:00",
  "source": "aim.koca.go.kr/xNotam (server-side, GitHub Actions)",
  "airport": "RKPK",
  "windowDays": 60,
- "count": 34,
+ "count": 36,
  "DATA": [
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway(s) (specify) / Plain language",
+   "SERIES": "A",
+   "NOTAM_NO": "A1714/26",
+   "ISSUE_TIME": "2611190113",
+   "ECODE": "TWY E5 NEW NOTAM TO FLW",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n190113 RKRRYNYX\r\n(A1714/26 NOTAMC A1703/26 \r\nQ)RKRR/QMXXX/IV/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2611190116 \r\nE)TWY E5 NEW NOTAM TO FLW)\r\n",
+   "QCODE": "QMXXX",
+   "SEQ": "16792899",
+   "FIR": "RKRR",
+   "EFFECTIVESTART": "2611190116"
+  },
+  {
+   "LOCATION": "RKPK",
+   "QCODE_MEAN": "Taxiway(s) (specify) / Closed",
+   "SERIES": "A",
+   "ISSUE_TIME": "2611190113",
+   "QCODE": "QMXLC",
+   "EFFECTIVEEND": "2611192000",
+   "FIR": "RKRR",
+   "NOTAM_NO": "A1715/26",
+   "ECODE": "TWY E5 CLSD DUE TO MAINT",
+   "AIS_TYPE": "A",
+   "FULL_TEXT": "GG RKZZNAXX\r\n190113 RKRRYNYX\r\n(A1715/26 NOTAMN  \r\nQ)RKRR/QMXLC/IV/BO/A/000/999/3511N12856E005\r\nA)RKPK B)2611190530 C)2611192000\r\nE)TWY E5 CLSD DUE TO MAINT)\r\n",
+   "SEQ": "16792900",
+   "EFFECTIVESTART": "2611190530"
+  },
   {
    "LOCATION": "RKPK",
    "QCODE_MEAN": "Taxiway(s) (specify) / Closed",
